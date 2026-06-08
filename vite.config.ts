@@ -9,10 +9,4 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  // 이 아래 내용을 추가하거나 수정하세요!
-  root: "./", 
-  build: {
-    outDir: "dist",
-    emptyOutDir: true,
-  }
 });
